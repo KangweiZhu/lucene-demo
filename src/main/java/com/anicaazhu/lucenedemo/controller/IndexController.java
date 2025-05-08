@@ -19,9 +19,9 @@ public class IndexController {
     public String buildIndex() {
         try {
             indexer.buildIndex();
-            return "索引构建完成";
+            return "finished indexing";
         } catch (Exception e) {
-            return "构建失败: " + e.getMessage();
+            return "failed indexing: " + e.getMessage();
         }
     }
 }

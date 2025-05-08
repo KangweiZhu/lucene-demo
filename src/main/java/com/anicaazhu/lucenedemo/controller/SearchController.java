@@ -2,6 +2,7 @@ package com.anicaazhu.lucenedemo.controller;
 
 import com.anicaazhu.lucenedemo.model.SearchResult;
 import com.anicaazhu.lucenedemo.service.LuceneSearchService;
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -19,9 +20,9 @@ public class SearchController {
 
     @GetMapping
     public List<SearchResult> search(
-            @RequestParam(required = false) String pickup,
-            @RequestParam(required = false) String dropoff
-    ) throws IOException {
+            @RequestParam(required = false, name="pickup") String pickup,
+            @RequestParam(required = false, name="dropoff") String dropoff
+    ) throws IOException, ParseException {
         return luceneSearchService.search(pickup, dropoff);
     }
 }

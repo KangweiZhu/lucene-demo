@@ -147,3 +147,9 @@ SELECT
     pickup_dt
 FROM raw_taxi_trip
 WHERE pickup_dt IS NOT NULL AND passenger_count IS NOT NULL;
+
+-- just check
+SELECT DISTINCT pickup_location FROM taxi_trip WHERE pickup_location LIKE '%jfk%' LIMIT 20;
+
+-- check again
+SELECT DISTINCT pickup_location FROM taxi_trip LIMIT 20;

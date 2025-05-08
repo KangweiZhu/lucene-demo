@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/taxi?useSSL=false&serverTimezone=UTC
+    username: dev
+    password: dev123
+    driver-class-name: com.mysql.cj.jdbc.Driver

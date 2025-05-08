@@ -1,3 +1,7 @@
+```bash
+archlinux-java status
+```
+
 你要实现的接口是一个基于 Lucene 的搜索服务，用户可以访问：
 ```
 GET /search?pickup=jfk&dropoff=times square
@@ -27,3 +31,12 @@ Copy the NYC dataset into MySQL
 docker cp dataset/2023_Yellow_Taxi_Trip_Data.csv mysql-taxi:/var/lib/mysql-files/
 ```
 sql直接照着init.sql顺序执行即可。
+
+```
+共写入文档数：37000870
+```
+
+```
+GET /search?picklarup=jfk&dropoff=midtown
+GET /search?pickup=central park
+```

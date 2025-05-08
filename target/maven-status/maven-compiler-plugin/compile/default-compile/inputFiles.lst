@@ -1,0 +1,6 @@
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/DemoApplication.java
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/controller/IndexController.java
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/controller/SearchController.java
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/indexer/LuceneIndexer.java
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/model/SearchResult.java
+/home/anicaa/IdeaProjects/demo/src/main/java/com/anicaazhu/lucenedemo/service/LuceneSearchService.java

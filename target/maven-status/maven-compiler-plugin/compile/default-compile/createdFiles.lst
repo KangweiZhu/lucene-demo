@@ -1,0 +1,6 @@
+com/anicaazhu/lucenedemo/controller/IndexController.class
+com/anicaazhu/lucenedemo/controller/SearchController.class
+com/anicaazhu/lucenedemo/model/SearchResult.class
+com/anicaazhu/lucenedemo/service/LuceneSearchService.class
+com/anicaazhu/lucenedemo/DemoApplication.class
+com/anicaazhu/lucenedemo/indexer/LuceneIndexer.class
